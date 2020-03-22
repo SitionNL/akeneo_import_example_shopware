@@ -1,0 +1,1 @@
+# akeneo_import_example_shopware
