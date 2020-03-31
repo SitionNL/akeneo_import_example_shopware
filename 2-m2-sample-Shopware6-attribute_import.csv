@@ -1,13 +1,13 @@
 code;label-en_US;allowed_extensions;auto_option_sorting;available_locales;date_max;date_min;decimals_allowed;default_metric_unit;group;localizable;max_characters;max_file_size;metric_family;minimum_input_length;negative_allowed;number_max;number_min;reference_data_name;scopable;sort_order;type;unique;useable_as_grid_filter;validation_regexp;validation_rule;wysiwyg_enabled
-sku;SKU;;;;;;;;general;0;;;;;;;;;0;0;pim_catalog_identifier;1;1;;;
+sku;SKU;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_identifier;1;1;;;
 name;Product Name;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_text;0;0;;;
 description;Description;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_textarea;0;0;;;
 short_description;Short Description;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_textarea;0;0;;;
-price;Price;;;;;;1;;sw6;0;;;;;;;;;0;0;pim_catalog_price_collection;0;1;;;
-special_price;Special Price;;;;;1;;other;0;;;;;;;;;0;0;pim_catalog_price_collection;0;1;;;
+price;Price;;;;;;1;;other;0;;;;;;;;;0;0;pim_catalog_price_collection;0;1;;;
+special_price;Special Price;;;;;;1;;other;0;;;;;;;;;0;0;pim_catalog_price_collection;0;1;;;
 special_from_date;Special Price From Date;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_date;0;0;;;
 special_to_date;Special Price To Date;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_date;0;0;;;
-cost;Cost;;;;;1;;other;0;;;;;;;;;0;0;pim_catalog_price_collection;0;1;;;
+cost;Cost;;;;;;1;;other;0;;;;;;;;;0;0;pim_catalog_price_collection;0;1;;;
 weight;Weight;;;;;;1;;other;0;;;;;0;;;;0;0;pim_catalog_number;0;0;;;
 meta_title;Meta Title;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_text;0;0;;;
 meta_keyword;Meta Keywords;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_textarea;0;0;;;
@@ -80,11 +80,11 @@ discontinued_redirect;Discontinued Redirect;;;;;;;;other;0;;;;;;;;;0;0;pim_catal
 discontinued_product_sku;Discontinued Product SKU;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_text;0;0;;;
 alternative_product_heading;Alternative Product Heading;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_text;0;0;;;
 custom_product_canonical_url;Custom Product Canonical Url;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_text;0;0;;;
-sw6_pack_unit;;;;;;;0;;sw6;0;;;;;0;;;;0;0;pim_catalog_number;0;0;;;
-sw6_pack_unit_text;sw6_pack_unit_text;;;;;;;;sw6;0;;;;;;;;;0;0;pim_catalog_text;0;0;;;
-sw6_tax_id;;;;;;;;;sw6;0;;;;;;;;;0;0;pim_catalog_simpleselect;0;1;;;
-sw6_manufacturer;sw6_manufacturer;;;;;;;;sw6;0;;;;;;;;;0;0;pim_catalog_simpleselect;0;0;;;
-sw6_delivery_time;;;;;;;;;sw6;0;;;;;;;;;0;0;pim_catalog_simpleselect;0;0;;;
-sw6_sales_channel;;;;;;;;;sw6;0;;;;;;;;;0;0;pim_catalog_multiselect;0;0;;;
-sw6_delivery_scale;;;;;;;;;sw6;0;;;;;;;;;0;0;pim_catalog_simpleselect;0;0;;;
-sw6_price_net;sw6_price_net;;;;;;1;;sw6;0;;;;;;;;;0;0;pim_catalog_price_collection;0;0;;;
+sw6_pack_unit;sw6 pack unit;;;;;;0;;"other";0;;;;;0;;;;0;0;pim_catalog_number;0;0;;;
+sw6_pack_unit_text;sw6 pack unit tekst;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_text;0;0;;;
+sw6_tax_id;sw6 tax id;;;;;;;;"other";0;;;;;;;;;0;0;pim_catalog_simpleselect;0;1;;;
+sw6_manufacturer;sw6 manufacturer;;;;;;;;"other";0;;;;;;;;;0;0;pim_catalog_simpleselect;0;0;;;
+sw6_delivery_time;sw6 delivery time;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_simpleselect;0;0;;;
+sw6_sales_channel;sw6 sales channel;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_multiselect;0;0;;;
+sw6_delivery_scale;sw6 delivery scale;;;;;;;;other;0;;;;;;;;;0;0;pim_catalog_simpleselect;0;0;;;
+sw6_price_net;sw6_price_net;;;;;;1;;other;0;;;;;;;;;0;0;pim_catalog_price_collection;0;0;;;
